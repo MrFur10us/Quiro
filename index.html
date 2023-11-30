@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owl/owl.carousel.css" />
+    <link rel="stylesheet" href="owl/owl.theme.default.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Start project</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/" class="header__logo">Quiro Diagnostic Center</a>
+        <div class="header__nav">
+          <ul class="header__ul" id="headerUl">
+            <li class="header__li">
+              <a class="header__a _active" href="/">Home</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Service</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Doctors</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Gallery</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Contact</a>
+            </li>
+            <span class="material-icons icon-close">close</span>
+          </ul>
+          <span class="material-icons icon-menu" onclick="navToggle()"
+            >menu</span
+          >
+        </div>
+        <span class="material-icons" onclick="themeToggle()">light_mode</span>
+        <div class="header__search">
+          <input type="search" placeholder="Search Here" />
+          <span class="material-icons">search</span>
+        </div>
+      </header>
+      <div class="owl-carousel owl-theme">
+        <div class="carousel-img">
+          <img src="./img/carousel1.png" alt="carousel" />
+        </div>
+        <div class="carousel-img">
+          <img src="./img/carousel1.png" alt="carousel" />
+        </div>
+        <div class="carousel-img">
+          <img src="./img/carousel1.png" alt="carousel" />
+        </div>
+      </div>
+      <section class="service">
+        <div class="service__top">
+          <div class="service__title">Our Services</div>
+          <div class="service__text">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="service__main">
+          <div class="service__item1">
+            <div class="item1__img">
+              <img src="img/ring.svg" alt="ring" />
+            </div>
+            <div class="item1__texts">
+              <div class="item1__title">Call For Appointments</div>
+              <div class="item1__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item1__btn"
+                >Learn More <img src="img/arrow.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="service__item2">
+            <div class="item2__img">
+              <img src="img/person.svg" alt="ring" />
+            </div>
+            <div class="item2__texts">
+              <div class="item2__title">Call For Appointments</div>
+              <div class="item2__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item2__btn"
+                >Learn More <img src="img/arrow_white.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="service__item3">
+            <div class="item3__img">
+              <img src="img/information.svg" alt="ring" />
+            </div>
+            <div class="item3__texts">
+              <div class="item3__title">Call For Appointments</div>
+              <div class="item3__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item3__btn"
+                >Learn More <img src="img/arrow.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="specialist">
+        <div class="specialist__top">
+          <div class="specialist__title">Choose Your Specialist Doctor</div>
+          <div class="specialist__text">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="specialist__items">
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_one.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Kornelia Atkinson, MD</div>
+                <div class="item__title">Interventional Cardiologist</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_two.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Humera Wood, MD</div>
+                <div class="item__title">OB-GYN Nurse Practitioner</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_three.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Athena Barrow, MD</div>
+                <div class="item__title">Critical Care Specialist</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_four.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Sion Jennings, MD</div>
+                <div class="item__title">Nurse Practitioner</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_five.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Natasha Grant, MD</div>
+                <div class="item__title">Immunologist</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/man_six.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Zubair Mac, MD</div>
+                <div class="item__title">Nurse Practitioner</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Book Appointment</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <form class="join">
+        <div class="join__title">Join Our Newsletter</div>
+        <div class="join__input">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">
+            <span class="text">Subscribe</span>
+            <span class="material-icons"> local_mall </span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__col footer__brand">
+          <a href="/" class="footer__logo">Quiro Diagnostic Center</a>
+          <div class="footer__desc">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer-info">
+            <div class="footer-info__title">Address</div>
+            <div class="footer-info__value">
+              5 Koh Sek Lim Rd Singapore 486050
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="footer-info__title">Telephone</div>
+            <div class="footer-info__value">
+              <a href="tel:0740127246">(07)40127246</a>
+              <a href="tel:0267566577">(02)67566577</a>
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="footer-info__title">Email</div>
+            <div class="footer-info__value">
+              <a href="mailto:name@email.com">name@email.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer-hours">
+            <div class="footer-hours__title">Opening Hour</div>
+            <div class="footer-hours__value">Thursday: 9am - 6pm</div>
+            <div class="footer-hours__value">Wednesday: 9am - 6pm</div>
+            <div class="footer-hours__value">Saturday: 9am - 6pm</div>
+            <div class="footer-hours__value">Friday: 9am - 6pm</div>
+            <div class="footer-hours__value">Saturday: 9am - 6pm</div>
+            <div class="footer-hours__value">Tuesday: 9am - 6pm</div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          &copy; Copyright by developer <span id="copyright"></span>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/owl.script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
